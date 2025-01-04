@@ -1,0 +1,138 @@
+/* General styles */
+body {
+    margin: 10;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #694646, #2f1a1a);
+    color: #121213;
+  }
+  
+  /* Container */
+  .home-container {
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #935454;
+    color: white;
+  }
+  
+  .brand-name {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #f8d151;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 50px;
+    background: linear-gradient(120deg, hsl(0, 38%, 52%), #f3afaf);
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .shop-now-btn {
+    background-color: #fff;
+    color: #0a0201;
+    border: black;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Collection Section */
+  .collection {
+    padding: 40px;
+    background-color: #ffe4e1;
+  }
+  
+  .collection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.35);
+  }
+  
+  .product-img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    margin-top: 10px;
+    color: #ff6f61;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #090909;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-link:hover {
+    text-decoration: underline;
+  }
+  
