@@ -10,7 +10,7 @@
   
   /* Styles for individual links */
   .nav-link {
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(14, 12, 12);            /* White text color */
     text-decoration: none;   /* Removes underline from links */
     padding: 8px 12px;       /* Adds padding inside each link */
