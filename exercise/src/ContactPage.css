@@ -1,51 +1,60 @@
+/* Contact Page */
 .contact-container {
-    padding: 90px;
-    background-color: #dfb0b0;
-    text-align: center;
-  }
+  padding: 70px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: slideIn 1s ease-in-out forwards;
+}
 
-  .contact-container h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-    color: black;
-    text-align: center;
-  }
+.contact-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
 
-  .contact-container p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: black;
-    text-align: center;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contact-form button {
-    padding: 10px 10px;
-    background-color: #070606;
-    color: white;
-    border-radius: 12px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 30px;
+.contact-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #495057;
+}
 
-  }
-  
-  .contact-form button:hover {
-    background-color: #cdc095;
-  }
-  
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077b6;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  align-items: center;
+}
+
+.contact-form button:hover {
+  background-color: #005f87;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

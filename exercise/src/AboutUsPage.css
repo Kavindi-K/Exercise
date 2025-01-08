@@ -1,30 +1,35 @@
+/* About Us Page */
 .about-container {
-    padding: 40px;
-    background-color: #d0aeaa;
-    color: #333;
-    text-align: justify;
-  }
+  padding: 40px;
+  background-color: #ffffff;
+  color: #495057;
+  text-align: justify;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-  .about-container h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-    color: black;
-    text-align: center;
-  }
-  
-  .about-container p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-  }
+.about-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #0077b6;
+  text-align: center;
+}
 
-  .about-image {
-    width: 40%;
-    max-width: 60000px;
-    height: 10%;
-    margin: 100px 20px 50px 50px;
-    border-radius: 8px;
-    box-shadow: 6px 8px 4px 6px rgba(0.1, 0.1, 0.1, 0.1);
-    float: right;
-  }
-  
-  
+.about-container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.about-image {
+  width: 40%;
+  height: auto;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.1);
+}
